@@ -1,87 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: rgb(3, 1, 112);
+body {
+  background-color: rgb(3, 1, 112);
 }
-.box p
-{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-font-size: 60px;
-font-family: sans-serif;
-color: blueviolet;
-
+.box p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: sans-serif;
+  color: blueviolet;
 }
-h1{
-    text-align: center;
-    color: #fff;
-    margin: 50px auto;
+h1 {
+  text-align: center;
+  color: #fff;
+  margin: 50px auto;
 }
 .cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-
-    
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-between;
 }
 
 .card {
-    background-color: red;
-    height: 200px;
-    margin: 30px;
-            border-radius: 50px;
-            color: white;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  background-color: red;
+  height: 200px;
+  margin: 30px;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .card-m {
-    background-color: rgb(116, 85, 85);
-    height: 200px;
-    width: 100%;
-        border-radius: 50px;
-    color: white;
-    display: flex;
-    font-size: 100px;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  background-color: rgb(116, 85, 85);
+  height: 200px;
+  width: 100%;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  font-size: 100px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-.card-m p{
-    font-size: 70px;
+.card-m p {
+  font-size: 70px;
 }
-.card button{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: blue;
-    color: white;
-    margin: auto;
+.card button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  margin: auto;
 }
-.card button a{
-text-decoration: none;
-color: #fff;
-font-size: 30px;
+.card button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
 }
-.sonl a{
-    width: 100%;
-    font-size: 100px;
-text-decoration: none;
-color: yellow;
+.sonl a {
+  width: 100%;
+  font-size: 50px;
+  text-decoration: none;
+  color: yellow;
 }
-.sonl{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+.sonl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 400px;
+  text-align: center;
 }
